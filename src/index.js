@@ -8,13 +8,16 @@ import ReactDOM from 'react-dom'
 import '@styles/index.scss'
 import App from '@src/App'
 
+const container = document.getElementById('root')
+
+/** Now, we create a root * */
+const root = ReactDOM.createRoot(container, { hydrate: true })
 /**
  * @function render
  * Render the Home component inside the element root of the index page
  */
-ReactDOM.render(
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 )

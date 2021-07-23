@@ -3,8 +3,7 @@
  * @module Home
  */
 
-import React from 'react'
-import Seo from '@components/Seo'
+import React, { useTransition, useState } from 'react'
 
 /**
  * @function Home
@@ -12,10 +11,24 @@ import Seo from '@components/Seo'
  * @return {Object} Return the dom of the Home page
  */
 const Home = () => {
+  const [val, setVal] = useState(0)
+  const [isPending, startTransition] = useTransition({
+    timeoutMs: 3000
+  })
+
   return (
     <>
-      <Seo title="Home" description="Description of Home" />
-      Test
+      <button
+        onClick={() =>
+          startTransition(() => {
+            setVal((v) => v + 1)
+          })
+        }
+      >
+        Increment
+      </button>
+      {isPending ? ' Loading...' : null}
+      <div>{val}</div>
     </>
   )
 }
