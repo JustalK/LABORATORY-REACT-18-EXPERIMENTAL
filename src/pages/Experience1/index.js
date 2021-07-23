@@ -1,16 +1,16 @@
 /**
  * The module managing the home page
- * @module Home
+ * @module Experiences/Experience2
  */
 
 import React, { useTransition, useState } from 'react'
 
 /**
- * @function Home
+ * @function Experience
  * Create the component Home
- * @return {Object} Return the dom of the Home page
+ * @return {Object} Return the dom
  */
-const Home = () => {
+const Experience = () => {
   const [val, setVal] = useState(0)
   const [isPending, startTransition] = useTransition({
     timeoutMs: 3000
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Experience

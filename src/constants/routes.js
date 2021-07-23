@@ -1,2 +1,2 @@
 export const ROUTE_HOME = '/'
-export const ROUTE_SECONDARY = '/secondary'
+export const ROUTE_SECONDARY = '/2'
