@@ -1,10 +1,10 @@
-# REACT APP TEMPLATE
+# LABORATORY REACT 18 - EXPERIMENTAL
 
 ## Goal
 
-This project is a template for building react-app with all my favorite tools already configured.
+This project has been made for testing the alpha version of react 18.
 
-Obviously, the app is using the latest version of `react`. For avoiding the relative path, I modified the webpack and allowing the import with an alias. I also added the support for sass files.
+Obviously, the app is using the alpha version of `react 18`. For avoiding the relative path, I modified the webpack and allowing the import with an alias using `React App Rewiring`. I also added the support for sass files.
 
 In addition, I added `prettier` and configured it for working well with `esLint`. Finally, I added the basic usefull package such as the router and the helmet.  
 
@@ -15,6 +15,7 @@ I explain with all the details how I build the project and my way of working.
 - [Documentation](#documentation)
 - [Organization](#organization)
 - [Development](#development)
+- [Installing](#installing)
 - [Running](#running)
 - [Commands](#commands)
 
@@ -63,6 +64,14 @@ npm run build:docs
 - **jsdoc**: For managing the dev documentation of the project
 - **react-router-dom**: For managing the router and the path to the differents pages
 - **react-helmet**: For managing the meta of the differents page
+
+## Installing
+
+For installing the package, you will need to force the installation because some of the package are not yet made for this alpha version :
+
+```
+npm install --force
+```
 
 ## Running
 
