@@ -1,5 +1,5 @@
 /**
- * The module managing the home page
+ * Using the useTransition for locking a button while waiting a result and not locking the UI
  * @module Experiences/Experience2
  */
 
@@ -14,7 +14,7 @@ const initialData = {
 
 /**
  * @function Experience
- * Create the component Home
+ * Try clicking on the first button and then interacting with the second one
  * @return {Object} Return the dom
  */
 const Experience = () => {

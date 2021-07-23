@@ -1,5 +1,5 @@
 /**
- * The module managing the home page
+ * Using the useTransition for getting a change
  * @module Experiences/Experience2
  */
 
@@ -7,7 +7,7 @@ import React, { useTransition, useState } from 'react'
 
 /**
  * @function Experience
- * Create the component Home
+ * You can try to spam the button, you should see the Loading appeared from time to time
  * @return {Object} Return the dom
  */
 const Experience = () => {
