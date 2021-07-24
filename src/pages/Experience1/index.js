@@ -1,6 +1,6 @@
 /**
  * Using the useTransition for getting a change
- * @module Experiences/Experience2
+ * @module Experiences/Experience1
  */
 
 import React, { useTransition, useState } from 'react'

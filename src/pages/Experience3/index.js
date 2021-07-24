@@ -1,6 +1,6 @@
 /**
  * Reload the component multiple time, the second suspense will sometime load first
- * @module Experiences/Experience2
+ * @module Experiences/Experience3
  */
 
 import React, { Suspense } from 'react'
