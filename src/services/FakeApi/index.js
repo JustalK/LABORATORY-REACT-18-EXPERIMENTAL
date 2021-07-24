@@ -26,13 +26,13 @@ const wrapPromise = (promise) => {
   }
 }
 
-const fetchData = () => {
+const fetchData = (random = 1) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
         foo: 'bar'
       })
-    }, 3000)
+    }, 3000 * random)
   })
 }
 

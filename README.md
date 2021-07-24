@@ -24,6 +24,8 @@ I explain with all the details how I build the project and my way of working.
 
 - **Experience1**: Testing the useTransition
 - **Experience2**: Testing the useTransition in a concurrent react
+- **Experience3**: Testing the Suspense with two call of random times
+- **Experience4**: Testing SuspenseList for forcing an order (experience 3 example)
 
 ## Documentation
 #### Code documentation
