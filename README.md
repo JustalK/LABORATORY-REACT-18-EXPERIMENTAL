@@ -72,6 +72,7 @@ npm run build:docs
 - **jsdoc**: For managing the dev documentation of the project
 - **react-router-dom**: For managing the router and the path to the differents pages
 - **react-helmet**: For managing the meta of the differents page
+- **use-deep-compare-effect**: For deep comparison on useEffect
 
 ## Installing
 
