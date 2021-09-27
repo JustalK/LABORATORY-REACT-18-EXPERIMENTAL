@@ -27,7 +27,7 @@ I explain with all the details how I build the project and my way of working.
 - **Experience3**: Testing the Suspense with two call of random times
 - **Experience4**: Testing SuspenseList for forcing an order (experience 3 example)
 - **Experience5**: Testing useDeferredValue
-- **Experience6**: Testing the experimental unstable_useOpaqueIdentifier (React 18)
+- **Experience6**: Testing the experimental unstable_useOpaqueIdentifier
 
 ## Documentation
 #### Code documentation
